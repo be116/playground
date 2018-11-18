@@ -2,7 +2,7 @@ var express = require('express');
 var os = require('os'); // ホスト名を取得するために使用
 var router = express.Router();
 
-var hostname = os.hostname + '/';
+var hostname = req.protocol + '://' + req.headers.host;
 
 /*=========== index =============*/
 router.get('/', function(req, res, next) {
