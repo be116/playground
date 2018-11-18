@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri|M+PLUS+1p|M+PLUS+Rounded+1c|Righteous');
+
+body {
+  padding: 50px;
+  font-family: 'M PLUS 1p', 'M PLUS ROUNDED 1c', 'Hind Siliguri', sans-serif;
+  font-size: 24px;
+  color: #444;
+  line-height: 1.4;
+}
+
+a {
+  color: #00B7FF;
+}
+
+/*======= utility ========*/
+
+/* padding */
+.p-8 {
+  padding: 8px;
+}
+
+/* margin */
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mx-0 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* width */
+.w-100 {
+  width: 100%;
+}
+
+/* align */
+.center {
+  text-align: center;
+}
+
+/*======== index =========*/
+
+.author {
+  font-style: italic;
+  font-weight: bolder;
+  text-decoration: underline;
+  color: #333;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  color: #333;
+  font-family: 'Righteous';
+  font-size: 64px;
+}
+
+.mail {
+  width: 100%;
+  min-width: 200px;
+  max-width: 800px;
+  border: double #88a 4px;
+  background: #fff;
+  filter: drop-shadow(1px 2px 1px #88a);
+}
+
+/*======== day 1 =========*/
+
+.buf {
+  font-size: 80px;
+  padding-right: 32px;
+}
+
+.left-arrow {
+  position: relative; left: 4px; top: 8px;
+}
+
+.hoge {
+  padding-left: 48px;
+  font-size: 72px; 
+  font-weight: bolder; 
+  font-style: italic;
+  color: #88e; 
+}
+
+.hoge-sm {
+  font-size: 60px; 
+  font-weight: bolder; 
+  font-style: italic;
+  color: #88e; 
+  font-family: 'Hind Siliguri';
+  text-decoration: none;
+}
+
+.func {
+  font-size: 80px; 
+  font-family: 'Righteous'; 
+  text-decoration: underline;
+}
+
+.huga {
+  font-size: 64px; 
+  font-weight: bolder;
+  color: #88e; 
+  font-style: italic;
+  font-family: 'Hind Siliguri';
+}
+
+.hammer {
+  position: relative; 
+  top: 12px;
+  left: 10px;
+}
+
+.fuga {
+  font-size: 128px; 
+  font-family: 'Righteous'; 
+  color: #e99; 
+  font-style: italic;
+}
+
+.koma {
+  width: 100%;
+  max-width: 800px;
+  min-width: 400px;
+  text-align: center;
+  border: solid 4px #222;
+}
+
+.koma-sm {
+  width: 80%;
+  max-width: 600px;
+  min-width: 300px;
+  text-align: center;
+  border: dashed 4px #333;
+  background: #ccc;
+}
+
+
