@@ -136,12 +136,20 @@ a {
   border: solid 4px #222;
 }
 
+.koma-func {
+  width: 100%;
+  max-width: 800px;
+  min-width: 400px;
+  text-align: center;
+  border: solid 6px #222;
+}
+
 .koma-sm {
   width: 80%;
   max-width: 600px;
   min-width: 300px;
   text-align: center;
-  border: dashed 4px #333;
+  border: dashed 4px #444;
   background: #ccc;
 }
 
